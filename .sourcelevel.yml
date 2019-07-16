@@ -11,7 +11,7 @@ engines:
       languages:
         ruby:
           mass_threshold: 20
-style_guide:beatrizChagas/linter
+style_guide: beatrizChagas/linter
 exclude_paths:
 - lib/generators/**/*.tt
 - config
