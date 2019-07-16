@@ -1,0 +1,17 @@
+engines:
+  rubocop:
+    enabled: true
+  scss-lint:
+    enabled: true
+  duplication:
+    enabled: true
+    exclude_paths:
+      - app/views/**/*
+    config:
+      languages:
+        ruby:
+          mass_threshold: 20
+exclude_paths:
+- lib/generators/**/*.tt
+- config
+- test
