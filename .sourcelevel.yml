@@ -1,0 +1,3 @@
+rubocop:
+  enabled: true
+  channel: stable
